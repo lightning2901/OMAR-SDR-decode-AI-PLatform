@@ -23,5 +23,13 @@ usbipd list
 usbipd bind --busid 1-5
 usbipd attach --wsl --busid 1-5
 
+## Architecture
+I've come up with the solution of the installator.sh being the responsible for updating the system, after it will create the eviroment and just after it finished will call a different installator in python for the libraries.
+
+## Things for completing on this process:
+- Keep the system running and change config for the reset wich implies a demon running and/or crontab?
+- DO NOT ask for any in place changes
+- Quickly and automatically connect to the server to use wget to update the local data before starting the GET POST process for data excgange. 
+
 
 
