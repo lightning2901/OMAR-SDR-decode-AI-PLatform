@@ -2,7 +2,7 @@
 I want to use my rtl-sdr to listen radio, and ai to understand it 
 # 1.- Understanding how this willl work
 ## To understand the architecture, check belof for the tree of how things are being build
-![diagrama](diagrama.png)
+![diagrama](Diagrama.png)
 
 ## Install the rtl-sdr software
 ##### dont : sudo apt install rtl-sdr
