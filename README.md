@@ -1,9 +1,11 @@
 # listen-SDR-decode-AI
 I want to use my rtl-sdr to listen radio, and ai to understand it 
+# 1.- Understanding how this willl work
+## To understand the architecture, check belof for the tree of how things are being build
 
 ## Install the rtl-sdr software
-
-sudo apt install rtl-sdr
+##### dont : sudo apt install rtl-sdr
+##### Instead we will use the setup.sh file, that file installs
 
 ### This will install the librtlsdr library, and command line tools such as rtl_sdr, rtl_tcp, rtl_fm, and rtl_test.
 
