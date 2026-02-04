@@ -27,7 +27,7 @@ usbipd bind --busid 1-5
 usbipd attach --wsl --busid 1-5
 
 ## Architecture
-I've come up with the solution of the installator.sh being the responsible for updating the system, after it will create the eviroment and just after it finished will call a different installator in python for the libraries.
+I've come up with the solution of creating setup tools in bash wich are responsible for preparing the system and enviroment of the reciever station (system), after it will create the virtual envieroment just and only to connect via internet to the core server wich will gain control of the system far away in order to make the system accesible far away.
 
 ## Things for completing on this process:
 - Keep the system running and change config for the reset wich implies a demon running and/or crontab?
